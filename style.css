@@ -1,0 +1,52 @@
+/** fontes
+font-family: Josefin Sans, sans-serif;
+font-family: Pacifico, cursive;
+font-family: Roboto, sans-serif;
+**/
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color:aqua;
+}
+
+.section-title {
+    font-family: Josefin Sans, sans-serif;
+}
+
+.carousel-item img {
+    height: 1024px;
+    width: 100%;
+}
+
+#galeria,
+#animais {
+    background-color:aliceblue;
+}
+
+#contato form button {
+    background-color: blue;
+    color:white;
+}
+
+#contato form button:hover {
+    background-color: aqua;
+    color:black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

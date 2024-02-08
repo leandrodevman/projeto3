@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <h1 class="m-0 section-title">Adote.com</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#galeria" class="nav-link">
+                            Galeria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nos" class="nav-link">
+                            Quem somos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#animais" class="nav-link">
+                            Animais disponíveis
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="galeria">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/cachorro-slide-1.jpg" alt="Cachorro 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/gato-slide-1.jpg" alt="Gato 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/gato-slide-2.jpg" alt="Gato 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/calopsita-slide.jpg" alt="Calopsita">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+        </section>
+        <section id="nos">
+            <div class="pb-5 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/bichano.jpg" class="d-block w-100 rounded" alt="Gato recebendo carinho">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Quem somos</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ullam sit, quod eveniet dignissimos soluta in iste molestiae. Minima ab iusto qui natus sunt vitae labore doloribus, quaerat tempora iste?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis consequuntur et sunt id placeat odit sapiente, aliquid maiores fugit perspiciatis laudantium eveniet nam voluptatum ipsa quibusdam maxime at eius doloribus.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet eius nulla alias molestias iure est impedit illum modi possimus, optio eaque sed totam ullam, animi doloremque beatae. Fuga, dolor facere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="animais" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Animais disponíveis para adoção
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cachorros" class="fw-bold text-start nav-link active">Cachorros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gatos" class="fw-bold text-start nav-link">Gatos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#calopsitas" class="fw-bold text-start nav-link">Calopsitas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cachorros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/dalmatian-1020790_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Dálmata/ Vira-lata</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/dog-1787835_1280.jpg" alt="Vira-lata">
+                                        <h5 class="fw-bold mt-2">Pinscher</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/dog-2561134_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Vira-lata</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/dog-423398_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Pitbull/ Vira-lata</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/golden-retriever-4390884_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Golden Retriever/ Vira-lata</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/labrador-retriever-1210559_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Labrador/ Vira-lata</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="gatos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cat-1941089_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Gato listrado</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cat-2083492_1280.jpg" alt="Vira-lata">
+                                        <h5 class="fw-bold mt-2">Gato listrado cinza</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cat-5778777_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Gato listrado cinza</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/kitten-1285341_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Gato branco</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/kitten-1866475_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Gato branco</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/maine-coon-694730_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Gato preto</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="calopsitas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cockatiel-2122876_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Calopsita</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cockatiel-3846264_1280.jpg" alt="Vira-lata">
+                                        <h5 class="fw-bold mt-2">Calops</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/bird-2603450_1280.jpg" alt="Dálmata">
+                                        <h5 class="fw-bold mt-2">Calopêira</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, explicabo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Rua Cachorro n°1000, Bairro Auau, Sarandi, PR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>
